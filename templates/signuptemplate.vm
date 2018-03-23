@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <title>SET Forms Notification</title>
+</head>
+<body>
+<b align="left">Dear ${user.firstName} ${user.lastName},</b><br/>
+<br/>
+Welcome to SET Forms! To complete your registration process, select the hyperlink below within 30 days of the receipt of this activation e-mail:<br/>
+<br/>
+<a href="${signupActivationUrl}">SET Forms Activation</a><br/><br/>
+If this e-mail was unintentionally sent to you, simply disregard this message or delete it.<br/><br/>
+Sincerely,<br/>
+SET Forms Administration<br/><br/>
+Please note: This e-mail was sent from an auto-notification system that cannot accept incoming e-mail. Please do not reply to this message.<br/><br/>
+</body>
+</html>
+
+

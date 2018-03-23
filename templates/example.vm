@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <style type="text/css">
+        body {
+            font-family: Tahoma, Helvetica, serif;
+            margin: 0;
+            font-size: 10pt;
+            color: #4f4f4f;
+            height: 100%;
+        }
+
+        h1 {
+            padding-top: 0px;
+            font-size: 10pt;
+        }
+
+        .backgroundTable {
+            background-color: #dfdfdf;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content {
+            padding: 0 10px;
+        }
+
+        #body {
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            width: 700px;
+            background-color: #ffffff;
+            text-align: left;
+            border-left: 1px #0f3184 solid;
+            border-right: 1px #0f3184 solid;
+        }
+    </style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" class="backgroundTable">
+    <tr>
+        <td style="vertical-align:top;" align="center" valign="top" width="100%">
+            <div id="body">
+                <div class="content">
+                    <p>
+                        This user <b>${userName}</b> has sent you the following message while you was absent:
+                    </p>
+
+                    <p>
+                        <i>${chatMessage}</i>
+                    </p>
+
+                    <p>
+                        Please click in the following link to follow and respond the message:
+                    </p>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
